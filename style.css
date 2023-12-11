@@ -1,0 +1,125 @@
+body{
+    margin: 0; /* внешний отступ */
+    padding: 0; /* внутренний отступ */
+    font-family: 'Montserrat', 'sans-serif'
+}
+    .header{
+    height: 80px; /* Высота */
+    background-color: White; /* цвет заднего фона */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    }
+    .header a{
+        color: #C81F56;
+    font-size: 22px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    }
+
+    .menu{
+    display: flex;
+        align-items: center;
+        grid-gap: 27px;
+        list-style-type: none;
+    }
+
+    .menu a{
+        color: black;
+    font-weight: 600;
+    }
+
+    .logo-header{
+    display: flex;
+    align-items: center;
+    }
+    .logo-header img{
+        margin-right: 20px;
+    }
+    .block-1{
+        padding: 30px 80px 30px 80px;
+        background-image: url(logo/фон.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .block-1 h1{
+        color:white;
+        margin-bottom: 60px;
+        font-size: 350%;
+    }
+    .block-1 h2{
+        color: white;
+        margin-bottom: 30px;
+        font-size: 250%;
+    }
+    .block-1 p{
+        color: white;
+    }
+    .benefits{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    .benefits span{
+        display: flex;
+        align-items: center;
+    }
+
+    .benefits img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .block-1 button{
+        width: 184px;
+        height: 43px;
+        background-color: #FEB447;
+        border: none;
+        font-weight: 600;
+        border-radius: 20px;
+    }
+    .block-2{
+        padding: 200px 200px 200px 200px;
+        background-image: url(logo/gr2.svg);
+        background-repeat: no-repeat;
+        background-size: 120% 170%;
+    }
+    .block-2 h1{
+        color:black;
+        text-align: center;
+    }
+    .tab-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    text-align: center;
+    }
+    .tab-1 img{
+        height: 55px;
+        width: 55px;
+        margin-right: 20px;
+    }
+    .tab-1 p{
+        color: black;
+        text-align: left;
+        margin-left: 175px;
+    }
+    .tab-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    text-align: center;
+    }
+    .tab-2 img{
+        height: 55px;
+        width: 55px;
+        margin-right: 20px;
+    }
+    .tab-2 p{
+        color: black;
+        text-align: left;
+        margin-left: 175px;
+    }
